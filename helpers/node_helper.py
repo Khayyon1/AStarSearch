@@ -1,3 +1,4 @@
+
 def getNeighboringNodes(node, nodes):
     neighbors = []
 
@@ -18,7 +19,7 @@ def getNeighboringNodes(node, nodes):
     # print(neighbors)
     return neighbors
 
-def reconstructPath(endNode: Node) -> List:
+def reconstructPath(endNode):
     if not endNode.cameFrom:
         return []
     currentNode = endNode

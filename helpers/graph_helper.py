@@ -1,4 +1,12 @@
-
+class Node:
+    def __init__(self, row, col, value):
+        self.row = row
+        self.col = col
+        self.value = value
+        self.g_score = float('inf')
+        self.h_score = float('inf')
+        self.cameFrom = None
+        
 def generateGrid(n):
     return [[0 for col in range(n)] for row in range(n)]
 
