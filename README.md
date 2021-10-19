@@ -47,3 +47,11 @@ Here is a visualization of the A* Search algorithm going from the starting point
 * Making the program interactive, where users can dynamically add obstacles into the grid and watch the A* algorithm dynamically update it's path. I considered doing this in PyGame but the library had a hard time with update the frames for a relatively small input for this program. So I have been experimenting with trying to send the outputs of the A* functions to a Node program or just re-writing the program in JavaScript in order to make that interactive piece. But I am a little stumped about how to go about adding this feature at the moment. Any suggestions are welcomed.
 
 <b>I hoped you enjoyed this project please fork and experiment at your leisure</b>
+
+# Update 10/19/2021
+The code has been turned into a python package. I uploaded to test.pypi.org for the time being, so please check it out provide feedback and etc.
+The link to the package is provided here for the reader's convenience: https://test.pypi.org/project/AStarSearch/
+
+# How to install this Package
+Use the following command to install the AStarSearch package
+```pip install -i https://test.pypi.org/simple/ AStarSearch```
