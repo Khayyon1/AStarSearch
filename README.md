@@ -68,5 +68,11 @@ Assuming the AStarSearch package was installed the following should work
    graph = generateGrid(GRID_SIZE)
    startRow, startCol = 0, 0
    endRow, endCol = 8, 8
-   AStarSearch(startRow, startCol, endRow, endCol, graph)
+   aStarSearch.AStarSearch(startRow, startCol, endRow, endCol, graph) 
+```
+
+The output should look like this:
+```
+[[0, 0], [1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0], [7, 0], [8, 0], [8, 1], [8, 2], [8, 3], [8, 4], [8, 5], [8, 6], [8, 7], [8, 8]]
+[[0, 0], [1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0], [7, 0], [8, 0], [8, 1], [8, 2], [8, 3], [8, 4], [8, 5], [8, 6], [8, 7], [8, 8]]
 ```
