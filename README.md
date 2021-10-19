@@ -53,5 +53,20 @@ The code has been turned into a python package. I uploaded to test.pypi.org for 
 The link to the package is provided here for the reader's convenience: https://test.pypi.org/project/AStarSearch/
 
 # How to install this Package
-Use the following command to install the AStarSearch package
-```pip install -i https://test.pypi.org/simple/ AStarSearch```
+Use the following command inside a terminal to install the AStarSearch package
+```
+pip install -i https://test.pypi.org/simple/ AStarSearch
+```
+
+# How to use the AStarSearch package 
+Assuming the AStarSearch package was installed the following should work
+``` python
+   from astarsearch_package.AStarSearch.aStarSearch as aStarSearch
+   generateGrid = aStarSearch.generateGrid
+   
+   GRID_SIZE = 10
+   graph = generateGrid(GRID_SIZE)
+   startRow, startCol = 0, 0
+   endRow, endCol = 8, 8
+   AStarSearch(startRow, startCol, endRow, endCol, graph)
+```
